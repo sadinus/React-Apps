@@ -13,7 +13,7 @@ class Button extends React.Component {
     render() {
         return (
             <button
-                className={this.props.isLongButton ? "" : "calcButton"}
+                className={this.props.isLongButton ? "longButton" : "calcButton"}
                 onClick={this.props.onClick}
                 value={this.props.value} >
                 {this.props.value}

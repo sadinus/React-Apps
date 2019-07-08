@@ -1,9 +1,15 @@
+.calcButton:hover, .longButton:hover{
+    cursor: pointer;
+}
+
 .calcButton{
     margin: 3px;
     height: 25px;
     width: 25px;
 }
 
-.calcButton:hover{
-    cursor: pointer;
+.longButton{
+    margin: 3px;
+    width: 56px;
+    height: 25px;
 }
