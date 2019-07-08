@@ -104,7 +104,6 @@ class Calculator extends React.Component {
                     <Button onClick={(e) => this.onOperationClick(e)} value="/" />
                 </div>
                 <br />
-                <br />
                 <Button
                     className='clearButton'
                     onClick={this.onClearClick}
